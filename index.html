@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Motorcycle Game</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body class="container-fluid">
+    <div class="row mb-5 mt-3">
+        <div class="col-md-3 mx-auto">
+            <button id="start" class="btn shadow-none"><img class="reload" src="./img/bouton-actualiser.png" alt=""> start again</button>
+        </div>
+       
+    </div>
+    <div class="row">
+        <div class="col">
+                <canvas class="" id="canvas"></canvas>
+        </div>
+        <div class="col">
+            <div class="col">
+                <button class="btn shadow-none" id="skin-btn"><img class="skin" src="./img/changes.png" alt="">  </button>  Click here to chnage Skin
+            </div>
+            <div class="row">
+                    <div class="keys">
+                        <img class="keys" src="./img/arrow-keys.png" alt="">   Use Keybored to play
+                    </div>
+                    
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="d-none">
+        <div class="row mt-5">
+            <div class="col-3 mx-auto">
+                <button id="mobileRightButton" class="btn"><img src="./img/fleche-vers-le-haut.png" alt=""></button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 mx-auto">
+                <button id="mobileDownButton" class="btn"><img src="./img/fleche-gauche.png" alt=""></button>
+            </div>
+            
+            <div class="col-3  mx-auto">
+                <button id="mobileUpButton" class="btn"><img src="./img/fleche-droite.png" alt=""></button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 mx-auto ">
+                <button id="mobileLeftButton" class="btn"><img src="./img/fleche-vers-le-bas.png" alt=""></button>
+            </div>
+        </div>
+    </div>
+  
+
+    <script src="js/script.js"></script>
+</body>
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <span class="mb-3 mb-md-0 text-muted mx-auto">© 2022 Yassine mathlouthi</span>
+</footer>
+</html>
